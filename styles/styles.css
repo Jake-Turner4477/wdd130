@@ -1,5 +1,14 @@
+:root{
+    --main-color: darkblue;
+    --aside-spacing: 1rem;
+
+}
+
+
+
+
 nav {
-    background-color: darkblue;
+    background-color: var(--main-color);
     padding: 10px;
 }
 
@@ -10,7 +19,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--main-color);
 }
 
 main img {
@@ -29,9 +38,9 @@ main{
 
 aside{
     width: 20rem;
-    margin: 1rem;
+    margin: var(--aside-spacing);
     border: 5px solid rgb(0 0 0 /0.2); 
-    padding: 1rem;
+    padding: var(--aside-spacing);
     background-color: #eee;
     color: #333;
     text-align: center;
