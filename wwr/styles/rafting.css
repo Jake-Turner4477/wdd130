@@ -71,7 +71,7 @@ nav, p, section, article{
     width: 100%;
     height: auto;
   }
-h1 {
+.hero h1 {
     position: absolute;
     top: 16px;
     font-size: 50px;
@@ -209,7 +209,7 @@ body {
   padding: 20px;
 }
 
-.container {
+#container {
   background-color: #182c17;
   display: flex;
   justify-content: space-between;
@@ -320,4 +320,9 @@ fieldset {
   background-color: #ffb700;
   color: black;
   border-color: #ffb700;
+}
+
+#contact-title {
+  text-align: center;
+  background-color: var(--primary-color);
 }
