@@ -222,26 +222,26 @@ fieldset {
   border-color: var(--primary-color);
 }
 
-.send-message h3 {
+#send-message h3 {
   text-align: center;
   margin: 10px;
 }
 
-.send-message,
-.contact-info {
+#send-message,
+#contact-info {
   flex: 1;
   padding: 20px;
 }
 
-.send-message h2,
-.contact-info h2 {
+#send-message h2,
+#contact-info h2 {
   color: #ffb700;
   font-style: italic;
 }
 
-.send-message input[type="text"],
-.send-message input[type="email"],
-.send-message textarea {
+#send-message input[type="text"],
+#send-message input[type="email"],
+#send-message textarea {
   width: 100%;
   padding: 8px;
   margin-bottom: 10px;
