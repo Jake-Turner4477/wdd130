@@ -148,6 +148,11 @@ article {
    
 }
 
+.adventure-gallery {
+  background-color: #182c17;
+  margin: 35px auto;
+}
+
 .adventure-gallery h2 {
     display: flex;
     justify-content: center;
@@ -175,6 +180,7 @@ article {
 }
 
 .footer-content{
+    background-color: #182c17;
     display: flex;
     justify-content: center;       
     align-items: center;           
@@ -190,4 +196,128 @@ article {
     width:50px;
     height: auto;
     padding: 5px;
+}
+
+
+
+
+body {
+  
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  background-color: #182c17;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+fieldset {
+  border-color: var(--primary-color);
+}
+
+.send-message h3 {
+  text-align: center;
+  margin: 10px;
+}
+
+.send-message,
+.contact-info {
+  flex: 1;
+  padding: 20px;
+}
+
+.send-message h2,
+.contact-info h2 {
+  color: #ffb700;
+  font-style: italic;
+}
+
+.send-message input[type="text"],
+.send-message input[type="email"],
+.send-message textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.radio-group {
+  margin-bottom: 20px;
+}
+
+.radio-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.employees {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.employee {
+  text-align: center;
+}
+
+.employee img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.contact-card {
+  background-color: #1d2d3e;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.contact-item {
+  margin-bottom: 20px;
+}
+
+.contact-item h3 {
+  color: #ffb700;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.contact-item p {
+  margin-left: 35px;
+  margin-top: 5px;
+}
+
+
+
+.map {
+ 
+  text-align: center;
+  padding: 5px;
+  margin-top: 5px;
+  
+}
+
+.submit-btn {
+  background-color: #1d2d3e;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.submit-btn:hover {
+  background-color: #ffb700;
+  color: black;
+  border-color: #ffb700;
 }
