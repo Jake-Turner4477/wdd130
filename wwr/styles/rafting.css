@@ -270,7 +270,8 @@ article {
 }
 
 .footer-content{
-    background-color: grey;
+    background-color: white;
+    color: black;
     display: flex;
     justify-content: center;       
     align-items: center;           
@@ -528,7 +529,9 @@ input[type="radio"] {
   justify-content: center;
   gap: .5rem;
 }
-
+.tab-content h1{
+  color:var(--secondary-color)
+}
 
 .book-now a{
   background: #529ae8;
