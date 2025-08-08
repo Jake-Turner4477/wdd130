@@ -459,6 +459,8 @@ fieldset {
   padding: 1rem 3rem 1rem 3rem;
   position: relative;
   margin-bottom: 2rem;
+
+  
 }
 
 /* Hide radio buttons */
@@ -477,10 +479,14 @@ input[type="radio"] {
   transition: background 0.3s;
 }
 
-input:checked + .tab-label {
+
+#trip1:checked ~ .tab-buttons label[for="trip1"],
+#trip2:checked ~ .tab-buttons label[for="trip2"],
+#trip3:checked ~ .tab-buttons label[for="trip3"] {
   background: #0077cc;
   color: white;
 }
+
 
 /* Content sections */
 .tab-content {
@@ -497,4 +503,10 @@ input:checked + .tab-label {
 #trip2:checked ~ #content2,
 #trip3:checked ~ #content3 {
   display: block;
+}
+
+.tab-buttons{
+  display: flex;
+  justify-content: center;
+  gap: .5rem;
 }
