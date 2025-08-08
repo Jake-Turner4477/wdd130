@@ -463,6 +463,13 @@ fieldset {
   
 }
 
+.tabs p{
+  font-size: 1.4rem;
+  padding:5px;
+  line-height: 1.5;
+  text-align: left;
+}
+
 /* Hide radio buttons */
 input[type="radio"] {
   display: none;
@@ -477,6 +484,8 @@ input[type="radio"] {
   border-radius: 4px 4px 0 0;
   cursor: pointer;
   transition: background 0.3s;
+  color:black;
+
 }
 
 
@@ -488,14 +497,23 @@ input[type="radio"] {
 }
 
 
+.tab-content img{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height:auto;
+  
+}
+
 /* Content sections */
 .tab-content {
+  text-align: center;
   display: none;
   padding: 1rem;
   border-top: 2px solid #0077cc;
   background: #fff;
   color: black;
-  border-radius: 0 0 8px 8px;
+  border-radius: 8px 8px 8px 8px;
 }
 
 /* Show content when corresponding radio is checked */
@@ -509,4 +527,86 @@ input[type="radio"] {
   display: flex;
   justify-content: center;
   gap: .5rem;
+}
+
+
+.book-now a{
+  background: #529ae8;
+  border: 3px solid var(--secondary-color);
+  padding: 10px 25px; 
+  color: black;
+  font-weight: bold;
+  font-size:1.4rem ;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.book-now{
+ display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 2rem;
+  border:2px solid #082D0F;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: #082D0F;
+}
+
+.book-now a:hover{
+  background-color:var(--accent1-color);
+
+}
+
+
+.trip-table{
+  display:flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.trip-table table{
+  width:100%;
+  font-size: 1.3rem;
+}
+
+table {
+  color: black;
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
+}
+
+thead,
+tfoot {
+  background-color: rgb(228 240 245);
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
 }
