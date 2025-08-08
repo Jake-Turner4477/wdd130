@@ -80,7 +80,7 @@ nav, p, section, article{
     text-align: center;
     opacity: 0.8;
     background-color: var(--accent1-color);
-    color: #fff; 
+    color:black; 
 }
 .hero #home-page-hero{
     position: absolute;
@@ -157,7 +157,7 @@ article {
     width:60%;
     right:0;
     background-color: var(--secondary-color);
-    color: var(--accent1-color);
+    color: white;
     padding:7px;
 
     
@@ -464,6 +464,9 @@ fieldset {
   
 }
 
+.newsletter h2{
+  color:var(--secondary-color);
+}
 .tabs p{
   font-size: 1.4rem;
   padding:5px;
