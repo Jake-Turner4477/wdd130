@@ -475,7 +475,7 @@ fieldset {
 }
 
 /* Hide radio buttons */
-input[type="radio"] {
+.tabs input[type="radio"] {
   display: none;
 }
 
